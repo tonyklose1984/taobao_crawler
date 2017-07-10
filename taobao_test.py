@@ -19,7 +19,7 @@ for k in range(0,100):        #100次，就是100个页的商品数据
     x = len(title)           #每一页商品的数量
 
     for i in range(0,x) :    #把列表的数据保存到文件中
-        file.write(str(k*44+i+1)+'书名：'+title[i]+'\n'+'价格：'+price[i]+'\n'+'地址：'+loc[i]+'\n\n')
+        file.write(str(k*44+i+1)+'产品名称：'+title[i]+'\n'+'价格：'+price[i]+'\n'+'地址：'+loc[i]+'\n\n')
 
 
 file.close()
